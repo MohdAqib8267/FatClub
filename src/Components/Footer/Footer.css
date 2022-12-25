@@ -1,0 +1,42 @@
+.footer-container{
+  position: relative;
+    
+}
+.footer-container>hr{
+    border: 1.5px solid var(--gray);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 20rem;
+   
+    
+}
+.social-links{
+    display: flex;
+    gap: 4rem;
+  
+}
+.social-links>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.logo-f>img{
+    width: 10rem;
+}
+.f-blur1{
+    width: 12rem;
+    height: 15rem;
+    left: 0;
+    bottom: 0;
+}
+.f-blur2{
+    width: 12rem;
+    height: 15rem;
+    right: 0;
+    bottom: 0;
+}
